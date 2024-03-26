@@ -1,0 +1,44 @@
+<section class="feedback">
+  <div class="feedback__container container">
+    <h2 class="title_h2">Зворотній зв'язок</h2>
+    <form id="feedbackForm">
+      <div class="form-group">
+        <label class="name__label" for="name">Ім'я:</label>
+        <input class="name__input" type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label class="email__label" for="email">Email:</label>
+        <input
+          class="email__input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label class="comment__label" for="comment">Коментар:</label>
+        <textarea
+          class="comment__input"
+          id="comment"
+          name="comment"
+          rows="4"
+          required
+        ></textarea>
+      </div>
+      <div class="form-group">
+        <input
+          class="consent__checkbox"
+          type="checkbox"
+          id="consent"
+          name="consent"
+          required
+        />
+        <label class="consent__label" for="consent">
+          Я погоджуюсь на обробку моїх персональних даних
+        </label>
+      </div>
+      <button class="submit__button" type="submit">Надіслати</button>
+    </form>
+  </div>
+</section>

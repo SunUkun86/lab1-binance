@@ -1,0 +1,50 @@
+  .feedback__container{
+    margin-top: 20px;
+  }
+  .title__h2 {
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .name__label,
+  .email__label,
+  .comment__label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .name__input,
+  .email__input,
+  .comment__input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .comment__input{
+    resize: none;
+  }
+  
+  .submit__button {
+    background-color: #ffc107;
+    color: #141414; 
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit__button:hover {
+    filter: brightness(0.8);
+  }
+
+  .consent__checkbox:checked{
+    accent-color: #ffc107; /* Жовтий колір */
+    background-color: #141414;
+  }
