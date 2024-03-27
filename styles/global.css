@@ -1,5 +1,18 @@
 :root{
   --text-color: rgb(20, 20, 20);
+  --feedback-title-color:#333;
+  --feedback-input-border-color:#ccc;
+  --feedback-submit-button-background-color:#ffc107;
+  --feedback-submit-button-color:#141414;
+  --feedback-consent-checkbox-checked-accent-color:#ffc107;
+  --feedback-consent-checkbox-checked-background-color:#141414;
+  --newsfeed-container-background-color:#ffc107;
+  --newsfeed-container-box-shadow-color:#000000b3;
+  --newsfeed-newsport-info-container-border-color:#141414;
+  --newsfeed-newsport-link-background-color:#ffc107;
+  --newsfeed-newsport-link-color:#141414;
+  --newsfeed-newsport-link-border-color:#141414;
+
   scroll-behavior: smooth;
   color: var(--text-color);
   font-family: Arial, sans-serif;

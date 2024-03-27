@@ -1,8 +1,14 @@
+  .feedback{
+    padding: 20px;
+  }
   .feedback__container{
     margin-top: 20px;
   }
-  .title__h2 {
-    color: #333;
+  .feedback__header{
+    text-align: center;
+  }
+  .feedback__title {
+    color: var(--feedback-title-color);
   }
   
   .form-group {
@@ -22,7 +28,7 @@
     width: 100%;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--feedback-input-border-color);
     border-radius: 4px;
   }
   
@@ -31,8 +37,8 @@
   }
   
   .submit__button {
-    background-color: #ffc107;
-    color: #141414; 
+    background-color: var(--feedback-submit-button-background-color);
+    color: var(--feedback-submit-button-color);
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -45,6 +51,6 @@
   }
 
   .consent__checkbox:checked{
-    accent-color: #ffc107; /* Жовтий колір */
-    background-color: #141414;
+    accent-color: var(--feedback-consent-checkbox-checked-accent-color); 
+    background-color: var(--feedback-consent-checkbox-checked-background-color);
   }
