@@ -1,4 +1,4 @@
-:root{
+:root {
   --text-color: rgb(20, 20, 20);
   --feedback-title-color:#333;
   --feedback-input-border-color:#ccc;
@@ -13,9 +13,14 @@
   --newsfeed-newsport-link-color:#141414;
   --newsfeed-newsport-link-border-color:#141414;
 
+  --faq-background-color: rgb(255, 193, 7);
+  --faq-toggle-color: var(--text-color);
+  --faq-border-line-color: var(--text-color);
+  --description-text-color: var(var(--text-color));
   scroll-behavior: smooth;
   color: var(--text-color);
   font-family: Arial, sans-serif;
+  font-size: 18px;
 }
 * {
   margin: 0;
