@@ -1,8 +1,13 @@
-:root{
+:root {
   --text-color: rgb(20, 20, 20);
+  --faq-background-color: rgb(255, 193, 7);
+  --faq-toggle-color: var(--text-color);
+  --faq-border-line-color: var(--text-color);
+  --description-text-color: var(var(--text-color));
   scroll-behavior: smooth;
   color: var(--text-color);
   font-family: Arial, sans-serif;
+  font-size: 18px;
 }
 * {
   margin: 0;
